@@ -187,7 +187,7 @@ FINAL RESULT: ALL TESTS PASSED
 
 | Name | GitHub |
 |------|--------|
-| Asmitha Sathya Niranjan| [@asmith-sathya-niranjan]([https://github.com/asmith-sathya-niranjan]) | 
+| Asmitha Sathya Niranjan| [@asmith-sathya-niranjan](https://github.com/asmith-sathya-niranjan) | 
 | Rishmita Achudan | [@username](https://github.com/username) |
 | Anumolu Harika | [@username](https://github.com/username) |
 | Tommundrula Harsha Veena | [@username](https://github.com/username) |
