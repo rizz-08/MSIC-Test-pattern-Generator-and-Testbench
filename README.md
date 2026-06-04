@@ -173,7 +173,7 @@ FINAL RESULT: ALL TESTS PASSED
 ## Tools Used
 
 - **Language:** Verilog HDL (IEEE 1364-2001)
-- **Simulator:** Icarus Verilog (iverilog) / Xilinx Vivado
+- **Simulator:** Icarus Verilog (iverilog) (EDA Playground)/ Xilinx Vivado
 - **Waveform Viewer:** GTKWave
 
 ---
@@ -188,11 +188,12 @@ FINAL RESULT: ALL TESTS PASSED
 
 ## Team / Contributors
 
-| Name | GitHub | Contribution |
-|------|--------|--------------|
-| Member 1 | [@username](https://github.com/username) | (describe your part) |
-| Member 2 | [@username](https://github.com/username) | (describe your part) |
-
+| Name | GitHub |
+|------|--------|
+| Asmitha Sathya Niranjan| [@username](https://github.com/username) | 
+| Rishmita Achudan | [@username](https://github.com/username) |
+| Anumolu Harika | [@username](https://github.com/username) |
+| Tommundrula Harsha Veena | [@username](https://github.com/username) |
 ---
 
 ## License
