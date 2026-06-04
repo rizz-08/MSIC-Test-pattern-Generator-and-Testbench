@@ -94,13 +94,13 @@ msic-test-pattern-generator/
 
 The testbench (`tb_msic_tpg_modified.v`) verifies:
 
-- ✅ **Reset behaviour** — JC initializes to zero, LFSR seeds to `0x01`
-- ✅ **Normal Johnson mode** — XOR output correctness across 8 clock cycles
-- ✅ **Reversible verifier** — passes for all valid CUT outputs
-- ✅ **LUT verifier** — passes for all valid CUT outputs
-- ✅ **Circular shift mode** — waveform observation
-- ✅ **Test-per-clock** — dual-clock interaction verified
-- ✅ **Fault injection** — single-bit fault detected and flagged
+- **Reset behaviour** — JC initializes to zero, LFSR seeds to `0x01`
+- **Normal Johnson mode** — XOR output correctness across 8 clock cycles
+- **Reversible verifier** — passes for all valid CUT outputs
+- **LUT verifier** — passes for all valid CUT outputs
+- **Circular shift mode** — waveform observation
+- **Test-per-clock** — dual-clock interaction verified
+- **Fault injection** — single-bit fault detected and flagged
 
 The modified testbench also generates a **VCD waveform file** (`dump.vcd`) viewable in GTKWave.
 
