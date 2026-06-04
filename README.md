@@ -79,11 +79,6 @@ msic-test-pattern-generator/
 ├── testbench/
 │   ├── tb_msic_tpg_original.v  ← Basic testbench
 │   └── tb_msic_tpg_modified.v  ← Modified TB with VCD waveform dump
-├── simulation/
-│   └── (generated outputs go here)
-├── docs/
-│   └── (reference material)
-├── run_sim.sh                   ← One-command simulation script
 ├── .gitignore
 └── README.md
 ```
