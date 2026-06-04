@@ -106,42 +106,24 @@ The modified testbench also generates a **VCD waveform file** (`dump.vcd`) viewa
 
 ---
 
-## How to Run (Icarus Verilog)
+## How to Run
 
-### Prerequisites
-```bash
-#Install Xilinx Vivado
-#Create a EDA Playground Account
-```
+### On EDA Playground (no installation needed)
+1. Go to [edaplayground.com](https://edaplayground.com)
+2. Create a free account
+3. In the left panel, paste the contents of `src/msic_tpg_top.v`
+4. In the right panel, paste the contents of `testbench/tb_msic_tpg_modified.v`
+5. Under **Tools & Simulators**, select **Icarus Verilog 0.9.7**
+6. Tick **Open EPWave after run** to see the waveform
+7. Click **Run**
 
-### Run Simulation
+### On Xilinx Vivado
+1. Create a new RTL project
+2. Add all files from `src/` as design sources
+3. Add files from `testbench/` as simulation sources
+4. Set `msic_tpg_top` as the top module
+5. Run **Behavioral Simulation**
 
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/msic-test-pattern-generator.git
-cd msic-test-pattern-generator
-
-# Give execute permission
-chmod +x run_sim.sh
-
-# Run with modified testbench (VCD output enabled)
-./run_sim.sh
-
-# Run with original testbench
-./run_sim.sh original
-
-# View waveform
-gtkwave simulation/dump.vcd
-```
-
-### Manual Compile (if not using the script)
-
-```bash
-iverilog -o simulation/sim_out src/msic_tpg_top.v testbench/tb_msic_tpg_modified.v
-vvp simulation/sim_out
-```
-
----
 
 ## Expected Output
 
@@ -168,12 +150,11 @@ FINAL RESULT: ALL TESTS PASSED
 ---
 
 ## Tools Used
-
 - **Language:** Verilog HDL (IEEE 1364-2001)
-- **Simulator:** Icarus Verilog (iverilog) (EDA Playground)/ Xilinx Vivado
-- **Waveform Viewer:** GTKWave
-
----
+- **Simulation:** EDA Playground (online)
+- **Synthesis & Implementation:** Xilinx Vivado
+- **Waveform Viewer:** EPWave (via EDA Playground)
+ --- 
 
 ## Reference
 
