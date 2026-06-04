@@ -193,6 +193,4 @@ FINAL RESULT: ALL TESTS PASSED
 | Tommundrula Harsha Veena | [@username](https://github.com/username) |
 ---
 
-## License
 
-This project is for academic purposes. See [LICENSE](LICENSE) for details.
