@@ -9,7 +9,7 @@ A hardware implementation of a **Mixed-Signal IC (MSIC) Test Pattern Generator**
 
 ## Overview
 
-This project implements a complete TPG system for generating high-quality test vectors for digital circuits. It uses a combination of an **LFSR-based seed generator** and a **Reconfigurable Johnson Counter**, whose outputs are XOR-combined to produce diverse test patterns. The design operates in a **test-per-clock** configuration, with dual-clock support and built-in output verification using two independent methods.
+This project implements a complete TPG system for generating high-quality test vectors for digital circuits. It uses a combination of an **LFSR-based seed generator** and a **Reconfigurable Johnson Counter**, whose outputs are XOR-combined to produce diverse test patterns. The design operates in a **test-per-clock** configuration, with dual-clock support and built-in output verification using two different tools.Original files are to be run on vivado while modified files are to be run on EDA playground.
 
 ---
 
@@ -110,11 +110,8 @@ The modified testbench also generates a **VCD waveform file** (`dump.vcd`) viewa
 
 ### Prerequisites
 ```bash
-# Ubuntu/Debian
-sudo apt install iverilog gtkwave
-
-# macOS (Homebrew)
-brew install icarus-verilog gtkwave
+#Install Xilinx Vivado
+#Create a EDA Playground Account
 ```
 
 ### Run Simulation
@@ -190,7 +187,7 @@ FINAL RESULT: ALL TESTS PASSED
 
 | Name | GitHub |
 |------|--------|
-| Asmitha Sathya Niranjan| [@username](https://github.com/username) | 
+| Asmitha Sathya Niranjan| [@asmith-sathya-niranjan]([https://github.com/asmith-sathya-niranjan]) | 
 | Rishmita Achudan | [@username](https://github.com/username) |
 | Anumolu Harika | [@username](https://github.com/username) |
 | Tommundrula Harsha Veena | [@username](https://github.com/username) |
