@@ -164,9 +164,10 @@ FINAL RESULT: ALL TESTS PASSED
 | Name | GitHub |
 |------|--------|
 | Asmitha Sathya Niranjan| [@Asmitha Sathya Niranjan](https://github.com/asmith-sathya-niranjan) | 
-| Bindu Manasa Simhadri | [@Bindu Manasa Simhadri]( https://github.com/Bindu1508) |
-| Vamsi | [@username](https://github.com/username) |
+| Rishmita Achudan | [@username](https://github.com/username) |
+| Anumolu Harika | [@username](https://github.com/username) |
 | Tommundrula Harsha Veena | [@Tommundrula Harsha Veena](https://github.com/HarshaVeena2706) |
+---
 ---
 
 
