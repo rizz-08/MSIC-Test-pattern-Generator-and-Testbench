@@ -9,7 +9,7 @@ A hardware implementation of a **Mixed-Signal IC (MSIC) Test Pattern Generator**
 
 ## Overview
 
-This project implements a complete TPG system for generating high-quality test vectors for digital circuits. It uses a combination of an **LFSR-based seed generator** and a **Reconfigurable Johnson Counter**, whose outputs are XOR-combined to produce diverse test patterns. The design operates in a **test-per-clock** configuration, with dual-clock support and built-in output verification using two different tools.Original files are to be run on vivado while modified files are to be run on EDA playground.
+This project implements a complete TPG system for generating high-quality test vectors for digital circuits. It uses a combination of an **LFSR-based seed generator** and a **Reconfigurable Johnson Counter**, whose outputs are XOR-combined to produce diverse test patterns. The design operates in a **test-per-clock** configuration, with dual-clock support and built-in output verification using two different tools. The original files are to be run on Vivado, while the modified files are to be run on EDA playground.
 
 ---
 
