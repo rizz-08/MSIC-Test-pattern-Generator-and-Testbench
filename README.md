@@ -166,7 +166,7 @@ FINAL RESULT: ALL TESTS PASSED
 | Asmitha Sathya Niranjan| [@asmith-sathya-niranjan](https://github.com/asmith-sathya-niranjan) | 
 | Rishmita Achudan | [@username](https://github.com/username) |
 | Anumolu Harika | [@username](https://github.com/username) |
-| Tommundrula Harsha Veena | [@username](https://github.com/username) |
+| Tommundrula Harsha Veena | [@Tommundrula Harsha Veena](https://github.com/HarshaVeena2706) |
 ---
 
 
